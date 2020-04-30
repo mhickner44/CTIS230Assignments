@@ -1,0 +1,106 @@
+
+img#emblem{
+float: left;
+background-color: darkred;
+
+}
+.banner {
+    text-align: center;
+    background-color: darkred;
+ color: white;
+ font:serif;
+ height:143px;
+
+}
+
+.banner h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 18px ;
+}
+
+h3 {
+    color: darkred;
+
+}
+
+
+
+.navBar {
+    overflow: hidden;
+    background-color: darkred;
+   
+ border-bottom: goldenrod solid 9px;
+  
+}
+
+.bannerUnderline{
+height:10px;
+background-color: goldenrod;
+padding:0em;
+margin:0em;
+}
+
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ 
+}
+
+.navBar a:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.navBar a.active {
+    background-color: black;
+    color: white;
+}
+.pageTitle{
+    text-align:center;
+    font-size: 4em;
+    color: black;
+
+    
+    }
+    
+   .underline{
+    text-decoration:underline;
+    text-decoration-color: goldenrod;
+
+   }
+
+    .pageInfo{
+margin-left: 14em;
+margin-right: 14em;
+font:"flama condensed";
+}
+
+footer{
+   border-top: 10px solid;
+   border-color: goldenrod;
+    background-color: darkred;
+    
+    display:flex;
+    flex-direction: row;
+  justify-content: space-evenly;
+  padding:5em;
+  padding-top: 0em;
+  color:white;
+}
+footer a{
+color:white;
+text-decoration:none;
+}
+
+footer a:hover{
+    text-decoration:underline;
+    }
+
+footer h3{
+    color:white;
+}
