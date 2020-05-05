@@ -2,7 +2,7 @@
 img#emblem{
 float: left;
 background-color: darkred;
-
+border-bottom: goldenrod solid 9px;
 }
 .banner {
     text-align: center;
@@ -23,15 +23,16 @@ h3 {
 
 }
 
-
-
+ 
 .navBar {
     overflow: hidden;
     background-color: darkred;
    
  border-bottom: goldenrod solid 9px;
-  
+  padding-bottom: 6px;
 }
+
+
 
 .bannerUnderline{
 height:10px;
@@ -46,7 +47,8 @@ margin:0em;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    width: 30%;
  
 }
 
@@ -60,14 +62,24 @@ margin:0em;
     background-color: black;
     color: white;
 }
+
+.pageContent{
+background-color: darkred; 
+background-image: linear-gradient(darkred, white); 
+}
+
 .pageTitle{
     text-align:center;
-    font-size: 4em;
+    font-size: 2.5em;
     color: black;
-
-    
+    padding-top: 1em;
     }
     
+.pageTitle h2{
+margin-top:0em;
+
+}
+
    .underline{
     text-decoration:underline;
     text-decoration-color: goldenrod;
@@ -77,7 +89,20 @@ margin:0em;
     .pageInfo{
 margin-left: 14em;
 margin-right: 14em;
-font:"flama condensed";
+margin-bottom: 2em;
+padding:5em;
+background-color: rgba(211, 211, 211,.3) ;
+
+border-top-right-radius:8em ;
+border-top-left-radius:8em ;
+border-bottom-right-radius:8em ;
+border-bottom-left-radius:8em ;
+
+}
+#policyImg{
+float:right;
+width: 300;
+
 }
 
 footer{
