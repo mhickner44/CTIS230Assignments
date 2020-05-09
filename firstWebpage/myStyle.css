@@ -2,31 +2,33 @@ body{
 margin:0em;
 }
 
-img#emblem{
-float: left;
-background-color: darkred;
-border-bottom: goldenrod solid 9px;
-}
 
+
+img#rightEmblem,img#leftEmblem{
+width: 200px;
+height: 200px;
+background-color: darkred;
+}
 .banner {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align:center  ;
     background-color: darkred;
  color: white;
  font:serif;
  height:143px;
+ padding-bottom:  65px;
+
 
 }
 
-.banner h1{
-font-family: Georgia, 'Times New Roman', Times, serif;
-    font: size 18px ;
-    margin-top: 0em;
+
+
+.titleRow{
+    font-size: 1.4em;
 }
 
-h3 {
-    color: darkred;
-
-}
 
  
 .navBar {
@@ -35,6 +37,7 @@ h3 {
    
  border-bottom: goldenrod solid 9px;
   padding-bottom: 6px;
+
 }
 
 
@@ -54,6 +57,7 @@ margin:0em;
     text-decoration: none;
     font-size: 20px;
     width: 30%;
+    margin-left: 15px;
  
 }
 
@@ -75,7 +79,7 @@ background-image: linear-gradient(darkred, white);
 
 .pageTitle{
     text-align:center;
-    font-size: 2.5em;
+    font-size: 2.1em;
     color: black;
     padding-top: 1em;
     }
@@ -103,11 +107,16 @@ border-top-left-radius:8em ;
 border-bottom-right-radius:8em ;
 border-bottom-left-radius:8em ;
 
+}
+.pageInfo h3{
+    color:darkred;
 
 }
+
+
 #policyImg{
 float:right;
-width: 300;
+width: 300px;
 
 }
 
