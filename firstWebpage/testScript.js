@@ -4,6 +4,8 @@ myitem = document.getElementById("firstTest");
 pageInfo = document.getElementById("pageInfo");
 policyImg = document.getElementById("policyImg");
 textentry = document.getElementById("myinput");  
+image=document.getElementById("procedureImg");
+
 
 
 //Step 2: we want to tell ourText that when we move a mouse over it, it should change its color.we do this by telling ourText to use a specifiv event listener
@@ -13,10 +15,14 @@ myitem.addEventListener("mouseout", onMouseOut);
 //textfield listeners
 textentry.addEventListener("change", onChange);
 
+
+
 //button listeners
 textBackground.addEventListener("click", onButtonClick);
 changedImage.addEventListener("click", buttonClick)
 enlargeText.addEventListener("click",enlargeClick);
+
+//make big image
 
 
 //Step:3 write the event listener
@@ -55,5 +61,5 @@ function enlargeClick(){
 pageInfo.style.fontSize="18px";
 
 
-}
+
 
